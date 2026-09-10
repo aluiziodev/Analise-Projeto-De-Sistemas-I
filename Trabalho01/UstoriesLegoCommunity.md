@@ -1,14 +1,14 @@
-# Histórias de Usuário - Plataforma de Comunidade da LEGO
+# Histórias de Usuário - Plataforma de Comunidade 
  
 ## Épicos e Objetivos
 
 - **Épico 1 - Comunidade e Perfil:** Fornecer identidade do usuário e espaços comunitários para interação.
 
 - **Épico 2 - Marketplace (Troca, Compra e Venda):** Habilitar negociação entre usuários. 
-- **Épico 3 - Projetos:** Permitir criação, documentação e colaboração em projetos de construção.
+- **Épico 3 - Projetos:** Permitir criação, documentação e colaboração em projetos.
 - **Épico 4 - Eventos:** Suportar organização e participação em encontros presenciais. 
 - **Épico 5 - Painel Administrativo / BI:** Fornecer visão analítica e controles administrativos. 
-- **Épico 6 - Arquitetura Agnóstica:** Modelar o sistema sem acoplamento com a marca.
+
 
 Cada história segue o formato **Como [persona], eu quero [ação], para que [benefício]**, com Título, Prioridade, Pontos. As histórias respeitam o princípio **INVEST** (Independentes, Negociáveis, Valiosas, Estimáveis, Pequenas e Testáveis).
  
@@ -34,11 +34,11 @@ Cada história segue o formato **Como [persona], eu quero [ação], para que [be
 **Pontos:** 3
 
 ### E1-US03: Criar comunidade própria
-**Como** usuário da plataforma, **eu quero** criar uma comunidade temática ou local, **para que** eu possa reunir pessoas com interesses em comum (ex: cidade, tema de construção, faixa etária).
+**Como** usuário da plataforma, **eu quero** criar uma comunidade temática ou local, **para que** eu possa reunir pessoas com interesses em comum (ex: cidade, tema, faixa etária).
 **Prioridade:** Alta
 **Pontos:** 5
 ### E1-US04: Comunidades oficiais da marca
-**Como** administrador da LEGO, **eu quero** criar e disponibilizar comunidades oficiais pré-definidas, **para que** os usuários já encontrem espaços de referência assim que entram na plataforma.
+**Como** administrador , **eu quero** criar e disponibilizar comunidades oficiais pré-definidas, **para que** os usuários já encontrem espaços de referência assim que entram na plataforma.
 **Prioridade:** Média
 **Pontos:** 3
 
@@ -52,12 +52,12 @@ Cada história segue o formato **Como [persona], eu quero [ação], para que [be
 ## Épico 2 - Marketplace (Troca, Compra e Venda)
  
 ### E2-US01: Anunciar peça ou set
-**Como** colecionador , **eu quero** anunciar peças ou sets para venda ou troca, **para que** outros usuários possam encontrá-los e negociar comigo.
+**Como** colecionador, **eu quero** anunciar itens para venda ou troca, **para que** outros usuários possam encontrá-los e negociar comigo.
 **Prioridade:** Alta
 **Pontos:** 5
 
-### E2-US02: Buscar e negociar peça
-**Como** colecionador, **eu quero** buscar uma peça específica e entrar em contato com quem a anuncia, **para que** eu consiga comprá-la ou trocá-la diretamente com outro colecionador.
+### E2-US02: Buscar e negociar itens
+**Como** colecionador, **eu quero** buscar um item específico e entrar em contato com quem a anuncia, **para que** eu consiga comprá-la ou trocá-la diretamente com outro colecionador.
 **Prioridade:** Alta
 **Pontos:** 5
 
@@ -66,8 +66,8 @@ Cada história segue o formato **Como [persona], eu quero [ação], para que [be
 **Prioridade:** Alta
 **Pontos:** 3
 
-### E2-US04: Montar carrinho a partir de uma lista de peças
-**Como** construtor, **eu quero** informar a lista de peças que preciso para um projeto, **para que** o sistema monte automaticamente um carrinho de compra com os anúncios disponíveis que atendam essa lista.
+### E2-US04: Montar carrinho a partir de uma lista de itens
+**Como** construtor, **eu quero** informar a lista de itens que preciso para um projeto, **para que** o sistema monte automaticamente um carrinho de compra com os anúncios disponíveis que atendam essa lista.
 **Prioridade:** Média
 **Pontos:** 8
 
@@ -77,7 +77,7 @@ Cada história segue o formato **Como [persona], eu quero [ação], para que [be
 ## Épico 3 - Projetos
  
 ### E3-US01: Criar projeto
-**Como** creator, **eu quero** criar um projeto de construção, **para que** eu possa documentar e compartilhar minha ideia com a comunidade.
+**Como** creator, **eu quero** criar um projeto, **para que** eu possa documentar e compartilhar minha ideia com a comunidade.
 **Prioridade:** Alta
 **Pontos:** 5
 
@@ -91,8 +91,8 @@ Cada história segue o formato **Como [persona], eu quero [ação], para que [be
 **Prioridade:** Baixa
 **Pontos:** 3
 
-### E3-US04: Referenciar gerador externo de lista de peças
-**Como** creator, **eu quero** que meu projeto referencie a lista de peças gerada por uma ferramenta externa já existente, **para que** eu não precise recriar manualmente essa lista.
+### E3-US04: Referenciar gerador externo de lista de itens
+**Como** creator, **eu quero** que meu projeto referencie a lista de itens gerada por uma ferramenta externa já existente, **para que** eu não precise recriar manualmente essa lista.
 **Prioridade:** Média
 **Pontos:** 5
 
@@ -112,7 +112,7 @@ Cada história segue o formato **Como [persona], eu quero [ação], para que [be
 **Pontos:** 2
 
 ### E4-US03: Selo de evento oficial
-**Como** administrador da LEGO, **eu quero** marcar um evento como oficial, **para que** os usuários identifiquem encontros endossados pela marca.
+**Como** administrador, **eu quero** marcar um evento como oficial, **para que** os usuários identifiquem encontros endossados pela marca.
 **Prioridade:** Baixa
 **Pontos:** 2
 
@@ -126,29 +126,21 @@ Cada história segue o formato **Como [persona], eu quero [ação], para que [be
 ## Épico 5 - Painel Administrativo / BI 
  
 ### E5-US01: Visualizar locais mais ativos
-**Como** diretor de operações da LEGO, **eu quero** visualizar quais localidades têm mais eventos bem-sucedidos, **para que** eu possa decidir onde investir em ações e encontros oficiais.
+**Como** diretor de operações, **eu quero** visualizar quais localidades têm mais eventos bem-sucedidos, **para que** eu possa decidir onde investir em ações e encontros oficiais.
 **Prioridade:** Baixa
 **Pontos:** 8
 
-### E5-US02: Visualizar demanda de peças por região
-**Como** diretor de operações da LEGO, **eu quero** visualizar quais peças são mais demandadas por localidade, **para que** eu possa embasar decisões de distribuição/estoque regional.
+### E5-US02: Visualizar demanda de itens por região
+**Como** diretor de operações, **eu quero** visualizar quais itens são mais demandadas por localidade, **para que** eu possa embasar decisões de distribuição/estoque regional.
 **Prioridade:** Baixa
 **Pontos:** 8
 
  
 ### E5-US03: Gerenciar comunidades oficiais pelo painel
-**Como** administrador da LEGO, **eu quero** gerenciar comunidades oficiais pelo painel de administrador, **para que** eu não dependa da equipe técnica para manter esse conteúdo atualizado.
+**Como** administrador, **eu quero** gerenciar comunidades oficiais pelo painel de administrador, **para que** eu não dependa da equipe técnica para manter esse conteúdo atualizado.
 **Prioridade:** Baixa
 **Pontos:** 3
 
----
- 
-## Épico 6 - Arquitetura Agnóstica 
- 
-### E6-US01: Modelar entidades desacopladas da marca
-**Como** arquiteto do sistema, **eu quero** que comunidade, evento, projeto e marketplace sejam modelados sem acoplamento direto à marca LEGO, **para que** o mesmo framework possa futuramente ser reaproveitado por outra empresa/vertical de colecionáveis.
-**Prioridade:** Alta
-**Pontos:** 3
 
  
 ---
@@ -161,14 +153,13 @@ Cada história segue o formato **Como [persona], eu quero [ação], para que [be
 | E1-US02 | Perfil com histórico | 3 |
 | E1-US03 | Criar comunidade própria | 5 |
 | E1-US05 | Comunicação dentro da comunidade | 5 |
-| E2-US01 | Anunciar peça ou set | 5 |
-| E2-US02 | Buscar e negociar peça | 5 |
+| E2-US01 | Anunciar itens | 5 |
+| E2-US02 | Buscar e negociar itens | 5 |
 | E2-US03 | Avaliar transação | 3 |
 | E3-US01 | Criar projeto | 5 |
 | E4-US01 | Criar evento | 5 |
 | E4-US02 | Confirmar presença em evento | 2 |
-| E6-US01 | Modelar entidades desacopladas da marca | 3 |
-| **Total MVP** | | **44 pts** |
+| **Total MVP** | | **41 pts** |
  
  
 As histórias de prioridade Média e Baixa ficam sugeridas para Fase 2.
