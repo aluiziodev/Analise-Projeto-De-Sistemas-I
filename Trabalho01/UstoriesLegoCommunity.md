@@ -1,5 +1,18 @@
 # Histórias de Usuário - Plataforma de Comunidade 
  
+ 
+---
+
+## Equipe
+
+- Aluizio Pereira Almendra Neto - 565068 
+- Samuel Augusto de Abreu - 565164 
+- Jonathan Duarte Uchoa - 565636 
+- Americo Vitor Moreira Barbosa - 571045 
+- Gabriel Texeira Queiroz Damasceno - 565118 
+- João Guilherme Lima Martins - 568339
+---
+
 ## Épicos e Objetivos
 
 - **Épico 1 - Comunidade e Perfil:** Fornecer identidade do usuário e espaços comunitários para interação.
@@ -96,6 +109,13 @@ Cada história segue o formato **Como [persona], eu quero [ação], para que [be
 **Prioridade:** Média
 **Pontos:** 5
 
+### E3-US05: Editar projeto 
+Como creator, eu quero editar as informações do meu projeto (título, descrição, imagens, lista de itens), para que eu possa manter o conteúdo atualizado conforme o projeto evolui.
+**Prioridade:** Média | **Pontos:** 2
+ 
+### E3-US06: Excluir projeto 
+Como creator, eu quero excluir um projeto que criei, para que eu possa remover da plataforma projetos que não vou mais continuar ou publicar.
+**Prioridade:** Média | **Pontos:** 2
 
 ---
  
@@ -120,7 +140,15 @@ Cada história segue o formato **Como [persona], eu quero [ação], para que [be
 **Como** organizador de evento, **eu quero** que minha credibilidade cresça conforme organizo eventos bem avaliados, **para que** minha reputação na plataforma reflita minha experiência.
 **Prioridade:** Média
 **Pontos:** 5
+
+### E4-US05: Editar evento 
+Como organizador de evento, eu quero editar as informações do meu evento (local, data e horário), para que os participantes confirmados sempre tenham acesso aos dados corretos do encontro.
+**Prioridade:** Alta | **Pontos:** 2
  
+### E4-US06: Cancelar evento 
+Como organizador de evento, eu quero cancelar um evento que criei, para que os participantes sejam avisados e o evento não fique listado como ativo caso ele não vá mais acontecer.
+**Prioridade:** Alta | **Pontos:** 3
+
 ---
  
 ## Épico 5 - Painel Administrativo / BI 
@@ -157,9 +185,13 @@ Cada história segue o formato **Como [persona], eu quero [ação], para que [be
 | E2-US02 | Buscar e negociar itens | 5 |
 | E2-US03 | Avaliar transação | 3 |
 | E3-US01 | Criar projeto | 5 |
+| E3-US05 | Editar projeto | 2 |
+| E3-US06 | Excluir projeto | 2 |
 | E4-US01 | Criar evento | 5 |
 | E4-US02 | Confirmar presença em evento | 2 |
-| **Total MVP** | | **41 pts** |
+| E4-US05 | Editar evento  | 2 |
+| E4-US06 | Cancelar evento  | 3 |
+| **Total MVP** | | **50 pts** |
  
  
 As histórias de prioridade Média e Baixa ficam sugeridas para Fase 2.
