@@ -23,7 +23,7 @@
 - **Épico 5 - Painel Administrativo / BI:** Fornecer visão analítica e controles administrativos. 
 
 
-Cada história segue o formato **Como [persona], eu quero [ação], para que [benefício]**, com Título, Prioridade, Pontos. As histórias respeitam o princípio **INVEST** (Independentes, Negociáveis, Valiosas, Estimáveis, Pequenas e Testáveis).
+Cada história segue o formato **Como [persona], eu quero [ação], para que [benefício]**, com Título, Prioridade e Pontos. As histórias respeitam o princípio **INVEST** (Independentes, Negociáveis, Valiosas, Estimáveis, Pequenas e Testáveis).
  
 **Escala de prioridade:** 
 - Alta (MVP)
