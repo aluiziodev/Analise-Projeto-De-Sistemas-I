@@ -50,6 +50,7 @@ Cada história segue o formato **Como [persona], eu quero [ação], para que [be
 **Como** usuário da plataforma, **eu quero** criar uma comunidade temática ou local, **para que** eu possa reunir pessoas com interesses em comum (ex: cidade, tema, faixa etária).
 **Prioridade:** Alta
 **Pontos:** 5
+
 ### E1-US04: Comunidades oficiais da marca
 **Como** administrador , **eu quero** criar e disponibilizar comunidades oficiais pré-definidas, **para que** os usuários já encontrem espaços de referência assim que entram na plataforma.
 **Prioridade:** Média
@@ -59,6 +60,26 @@ Cada história segue o formato **Como [persona], eu quero [ação], para que [be
 **Como** membro de uma comunidade, **eu quero** publicar e ler mensagens/posts dentro dela, **para que** eu possa me comunicar com outros membros sobre projetos, trocas e eventos.
 **Prioridade:** Alta
 **Pontos:** 5
+
+### E1-US06: Visualizar perfil
+**Como** usuário da plataforma, **eu quero** visualizar o perfil de outros usuários, **para que** eu possa conhecer seu histórico, projetos, eventos e reputação na comunidade.
+**Prioridade:** Média
+**Pontos:** 3
+
+### E1-US07: Seguir usuário
+**Como** usuário da plataforma, **eu quero** seguir outros usuários da plataforma, **para que** eu possa acompanhar suas atividades e novidades na plataforma.
+**Prioridade:** Média
+**Pontos:** 2
+
+### E1-US08: Receber notificações de eventos da minha região
+**Como** usuário da plataforma, **eu quero** receber notificações sobre eventos próximos à minha região, **para que** eu possa descobrir e participar de encontros da comunidade.
+**Prioridade:** Média
+**Pontos:** 2
+
+### E1-US09: Denunciar perfil
+**Como** usuário da plataforma, **eu quero** denunciar perfis que violem as regras da comunidade, **para que** a plataforma possa analisar comportamentos inadequados e manter um ambiente seguro.
+**Prioridade:** Média
+**Pontos:** 3
 
 ---
  
@@ -83,6 +104,16 @@ Cada história segue o formato **Como [persona], eu quero [ação], para que [be
 **Como** construtor, **eu quero** informar a lista de itens que preciso para um projeto, **para que** o sistema monte automaticamente um carrinho de compra com os anúncios disponíveis que atendam essa lista.
 **Prioridade:** Média
 **Pontos:** 8
+
+### E2-US05: Denunciar item
+**Como** usuário da plataforma, **eu quero** denunciar anúncios de itens que violem as regras da comunidade, **para que** a plataforma possa analisar e remover conteúdos inadequados.
+**Prioridade:** Média
+**Pontos:** 3
+
+### E2-US06: Visualizar projetos que utilizam um item
+**Como** usuário da plataforma, **eu quero** visualizar projetos que utilizam determinado item, **para que** eu possa conhecer outras construções da comunidade que utilizam essa peça.
+**Prioridade:** Média
+**Pontos:** 3
 
  
 ---
@@ -117,6 +148,11 @@ Como creator, eu quero editar as informações do meu projeto (título, descriç
 Como creator, eu quero excluir um projeto que criei, para que eu possa remover da plataforma projetos que não vou mais continuar ou publicar.
 **Prioridade:** Média | **Pontos:** 2
 
+### E3-US06: Avaliar projeto da comunidade
+Como usuário da plataforma, eu quero avaliar projetos da comunidade, para que eu possa demonstrar minha opinião e contribuir para destacar projetos relevantes.
+**Prioridade:** Média | **Pontos:** 3
+
+
 ---
  
 ## Épico 4 - Eventos
@@ -149,6 +185,18 @@ Como organizador de evento, eu quero editar as informações do meu evento (loca
 Como organizador de evento, eu quero cancelar um evento que criei, para que os participantes sejam avisados e o evento não fique listado como ativo caso ele não vá mais acontecer.
 **Prioridade:** Alta | **Pontos:** 3
 
+### E4-US07: Convidar organizador para o evento
+Como organizador de evento, eu quero convidar outros usuários para ajudar na organização do meu evento, para que eu possa dividir responsabilidades e organizar o encontro de forma colaborativa. 
+**Prioridade:** Média | **Pontos:** 3
+
+### E4-US08: Convidar usuário para participar do evento
+Como organizador de evento, eu quero convidar usuários para participar do meu evento, para que eu possa divulgar o encontro e aumentar a participação da comunidade.
+**Prioridade:** Média | **Pontos:** 2
+
+### E4-US09: Criar enquetes para participantes do evento
+Como organizador de evento, eu quero criar enquetes para os participantes que confirmaram presença, para que eu possa coletar opiniões e tomar decisões sobre a organização do encontro.
+**Prioridade:** Média | **Pontos:** 3
+
 ---
  
 ## Épico 5 - Painel Administrativo / BI 
@@ -168,6 +216,11 @@ Como organizador de evento, eu quero cancelar um evento que criei, para que os p
 **Como** administrador, **eu quero** gerenciar comunidades oficiais pelo painel de administrador, **para que** eu não dependa da equipe técnica para manter esse conteúdo atualizado.
 **Prioridade:** Baixa
 **Pontos:** 3
+
+### E5-US04: Moderar conteúdo e usuários
+**Como** administrador, **eu quero** moderar perfis, publicações e comunidades públicas, **para que** eu possa remover conteúdos inadequados e manter um ambiente seguro para os membros da plataforma.
+**Prioridade:** Média
+**Pontos:** 5
 
 
  
